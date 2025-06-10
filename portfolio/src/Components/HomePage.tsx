@@ -10,7 +10,6 @@ import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Loader } from "./Loader";
-
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
