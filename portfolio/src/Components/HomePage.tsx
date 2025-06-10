@@ -8,6 +8,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ const HomePage = () => {
         <Projects />
         <Skills />
         <Experience />
+        <Contact />
         <Mail />
         <Social />
         </>
