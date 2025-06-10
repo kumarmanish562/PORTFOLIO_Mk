@@ -6,6 +6,7 @@ import Mail from "./Mail";
 import Social from "./Social";
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -20,6 +21,7 @@ const HomePage = () => {
         <Header />
         <About />
         <Projects />
+        <Skills />
         <Mail />
         <Social />
         </>
