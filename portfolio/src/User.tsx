@@ -100,20 +100,21 @@ const socialLinks = [
 
 
 const ExperienceInfo = [
-    {
-        role: "Specialist Programmer",
-        company: "Infosys",
-        date: "Oct 2023 - Present",
-        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    },
-    {
-        role: "System Engineer",
-        company: "Infosys",
-        date: "Nov 2022 - Sep 2023",
-        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
-    }
+   {
+  role: "Frontend Development Intern",
+  company: "ThevBlackThreat",
+  date: "Dec 2023 - Jun 2024",
+  desc: "During my internship, I focused on building modern and responsive web interfaces using React.js and Tailwind CSS. I collaborated on real-world projects, improved user experiences, and followed best practices in frontend development. The experience strengthened my skills in component-based design, state management, and API integration.",
+  skills: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS", "Git", "Responsive Design"]
+}
+
+    // {
+    //     role: "System Engineer",
+    //     company: "Infosys",
+    //     date: "Nov 2022 - Sep 2023",
+    //     desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
+    //     skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
+    // }
 ]
 const Slugs = [
     "typescript",
