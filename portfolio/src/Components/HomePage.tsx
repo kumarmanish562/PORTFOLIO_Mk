@@ -4,6 +4,7 @@ import { Toaster } from "react-hot-toast"; // Add this import or adjust the path
 import { Loader } from "./Loader";
 import Mail from "./Mail";
 import Social from "./Social";
+import About from "./About";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -17,6 +18,7 @@ const HomePage = () => {
     <Toaster/>
         <Header />
         <Mail />
+        <About />
         <Social />
         </>
         :<Loader/>

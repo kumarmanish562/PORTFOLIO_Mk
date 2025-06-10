@@ -1,9 +1,15 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
-    name: "Chandrabhan Maurya",
-    stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
-    bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
-}
+  name: "Manish Kumar",
+  stack: [
+    "Frontend Developer",
+    "React & Next.js Developer",
+    "Full Stack Learner",
+    "Open Source Enthusiast",
+    "Hackathon Winner",
+  ],
+  bio: "I'm a passionate frontend developer and backend developer from Bhilai, India, focused on building modern, accessible, and performance-driven web applications using React, Tailwind, and cloud technologies. Always exploring new tools and contributing to real-world projects. Let's collaborate and build something impactful!"
+};
 
 
 
