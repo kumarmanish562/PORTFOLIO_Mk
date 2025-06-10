@@ -3,8 +3,8 @@ import FloatingInput from "./FloatingInput";
 import { Button, useMatches } from "@mantine/core";
 import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 import { validateForm } from "./Validation";
-// import { collection, addDoc } from "firebase/firestore"; 
-// import { db } from "../Firebase";
+import { collection, addDoc } from "firebase/firestore"; 
+import { db } from "../Firebase";
 import toast from "react-hot-toast";
 
 const Contact = () => {
@@ -36,7 +36,7 @@ const Contact = () => {
         if(valid){
             setFormData(form);
             toast.success('Submitted Successfully!', {duration:4000});
-            // await addDoc(collection(db, "portfolio"), formData);
+            await addDoc(collection(db, "portfolio"), formData);
         }
         else{
             toast.error('Some error occurred!', {duration:4000})
