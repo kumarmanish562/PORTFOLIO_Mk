@@ -1,15 +1,32 @@
-import React from 'react';
 import "@mantine/core/styles.css";
 import './App.css';
 import HomePage from './Components/HomePage';
-import { MantineProvider} from '@mantine/core';
+import { MantineProvider, createTheme } from '@mantine/core';
+import { pdfjs } from 'react-pdf';
 
-const theme = {};
+import { useEffect } from "react";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 function App() {
+  useEffect(()=>{
+  
+  }, []);
+
+  const theme = createTheme({
+    breakpoints: {
+      'xs': '320px',
+      'sm': '476px',
+      'md': '640px',
+      'bs': '768px',
+      'lg': '900px',
+      'xl': '1024',
+      '2xl': '1280',
+    },
+  });
   return (
     <MantineProvider theme={theme} >
-      <HomePage/>
+    <HomePage/>
     </MantineProvider>
   );
 }
