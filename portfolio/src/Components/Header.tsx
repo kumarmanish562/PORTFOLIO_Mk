@@ -1,5 +1,5 @@
 import { IconHexagonLetterM } from "@tabler/icons-react";
-// import SideBar from "./SideBar";
+import SideBar from "./SideBar";
 import { useMediaQuery } from "@mantine/hooks";
 import { em } from "@mantine/core";
 import { useEffect, useState } from "react";
@@ -37,7 +37,7 @@ return (
         <div className="bs:flex gap-8 hidden">
             {navLinks(false, null)}
         </div>
-        {/* <SideBar/> */}
+        <SideBar/>
     </nav>
 );
 }
