@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./Header"
-import { Toaster } from "react-hot-toast"; // Add this import or adjust the path if Toaster is local
-import { Loader } from "./Loader";
+import { Toaster } from "react-hot-toast"; 
 import Mail from "./Mail";
 import Social from "./Social";
 import About from "./About";
@@ -10,6 +9,7 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { Loader } from "./Loader";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);

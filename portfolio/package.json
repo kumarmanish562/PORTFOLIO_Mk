@@ -16,6 +16,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.7",
     "@types/react-dom": "^19.1.6",
+    "aos": "^2.3.4",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -54,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "tailwindcss": "^3.4.17"
   }
 }

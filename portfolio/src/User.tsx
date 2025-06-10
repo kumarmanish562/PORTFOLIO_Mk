@@ -121,7 +121,6 @@ const Slugs = [
     "spring",
     "javascript",
     "dart",
-    "java",
     "react",
     "angular",
     "flutter",
@@ -136,7 +135,7 @@ const Slugs = [
     "nextdotjs",
     "prisma",
     "mysql",
-    "amazonaws",
+   
     "postgresql",
     "firebase",
     "nginx",
@@ -149,7 +148,7 @@ const Slugs = [
     "jira",
     "github",
     "gitlab",
-    "visualstudiocode",
+    
     "androidstudio",
     "sonarqube",
     "figma",
