@@ -5,7 +5,6 @@ const Info = {
     "Frontend Developer",
     "React & Next.js Developer",
     "Full Stack Learner",
-    "Open Source Enthusiast",
     "Hackathon Winner",
   ],
   bio: "I'm a passionate frontend developer and backend developer from Bhilai, India, focused on building modern, accessible, and performance-driven web applications using React, Tailwind, and cloud technologies. Always exploring new tools and contributing to real-world projects. Let's collaborate and build something impactful!"
@@ -25,13 +24,13 @@ const ProjectInfo = [
 }
 ,
 {
-    title: "Study Learning Platform",
-    desc: "Study is a responsive and modern frontend for an online learning platform designed with React, TailwindCSS, and HeadlessUI. It allows users to explore courses, view instructor profiles, watch preview lectures, and register/login for personalized learning. Clean UI components, dynamic course cards, and responsive layouts ensure a smooth experience across all devices. This frontend template is ideal for integrating with a learning backend or LMS.",
-    image: "study.png",
+    title: "AnMa-Academy",
+    desc: "AnMa-Academy is a responsive and modern frontend for an online learning platform built with React, TailwindCSS, and HeadlessUI. It enables users to explore courses, view instructor profiles, watch preview lectures, and register or log in for a personalized learning experience. The clean UI components, dynamic course cards, and responsive layouts provide a seamless experience on all devices.",
+    image: "AnMa-Academy.png",
     live: true,
     technologies: ["React", "Tailwind", "Heroicons", "HeadlessUI"],
-    // link: "https://code-mars.github.io/StudyHub/",
-    // github: "https://github.com/Code-Mars/StudyHub/"
+    link: "https://kumarmanish562.github.io/AnMa-Academy/",
+    github: "https://github.com/kumarmanish562/AnMa-Academy.git"
 },
 {
     title: "GameZone Web",
