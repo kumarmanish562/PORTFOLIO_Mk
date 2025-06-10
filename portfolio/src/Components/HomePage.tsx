@@ -5,6 +5,7 @@ import { Loader } from "./Loader";
 import Mail from "./Mail";
 import Social from "./Social";
 import About from "./About";
+import Projects from "./Projects";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -17,8 +18,9 @@ const HomePage = () => {
 {   loading!==true?<>
     <Toaster/>
         <Header />
-        <Mail />
         <About />
+        <Projects />
+        <Mail />
         <Social />
         </>
         :<Loader/>
