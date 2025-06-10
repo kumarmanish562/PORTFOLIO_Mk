@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./Header"
 import { Toaster } from "react-hot-toast"; // Add this import or adjust the path if Toaster is local
-import Loader from "./Loader";
+import { Loader } from "./Loader";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -14,8 +14,10 @@ const HomePage = () => {
 {   loading!==true?<>
     <Toaster/>
         <Header />
-        </>:
-        <Loader/>}
+        </>
+        :<Loader/>
+
+        }
     </div>
 };
 export default HomePage;
