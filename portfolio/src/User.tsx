@@ -40,6 +40,15 @@ const ProjectInfo = [
     technologies: ["React", "Tailwind", "Heroicons", "SwiperJS"],
     // link: "https://code-mars.github.io/GameZone/",
     // github: "https://github.com/Code-Mars/GameZone/"
+},
+{
+    title: "Disney+ Hotstar Clone",
+    desc: "A modern, responsive streaming platform clone built with React, Vite, and Tailwind CSS. This project replicates the Disney+ Hotstar experience with movie and show listings, authentication, and a sleek animated UI. Features include responsive design for all devices, animated banners, interactive cards, user authentication, dynamic routing, and a dark theme inspired by Disney+. The modular component structure makes it easy to customize and extend.",
+    image: "disney.png",
+    live: true,
+    technologies: ["React", "Vite", "Tailwind CSS", "React Router", "Axios"],
+    link: "https://disney-clone-frontend-zeta.vercel.app/",
+    github: "https://github.com/kumarmanish562/disney_clone_frontend.git"
 }
    
 ]
