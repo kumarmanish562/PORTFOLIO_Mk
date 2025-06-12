@@ -33,14 +33,15 @@ const ProjectInfo = [
     github: "https://github.com/kumarmanish562/AnMa-Academy.git"
 },
 {
-    title: "GameZone Web",
-    desc: "GameZone is a stylish, fully responsive gaming showcase website built using React and TailwindCSS. It highlights popular games, game trailers, user ratings, and upcoming releases. Users can search for games, filter by genre, and explore featured titles. With interactive UI elements, image sliders, and category-based navigation, GameZone delivers an engaging experience for gaming enthusiasts.",
-    image: "game.png",
-    live: true,
-    technologies: ["React", "Tailwind", "Heroicons", "SwiperJS"],
-    // link: "https://code-mars.github.io/GameZone/",
-    // github: "https://github.com/Code-Mars/GameZone/"
-},
+  title: "MGaming",
+  desc: "MGaming is a next-generation, fully responsive gaming website built with React, Vite, and TailwindCSS. It features trending games, gameplay trailers, user reviews, and upcoming releases. Users can browse by genre, explore featured titles, and enjoy an immersive UI with smooth animations, image sliders, and interactive effects powered by SwiperJS and GSAP.",
+  image: "game.png",
+  live: true,
+  technologies: ["React", "Vite", "Tailwind CSS", "Heroicons", "SwiperJS", "GSAP"],
+  link: "https://kumarmanish562.github.io/MGaming/",
+  github: "https://github.com/kumarmanish562/MGaming.git"
+}
+,
 {
     title: "Disney+ Hotstar Clone",
     desc: "A modern, responsive streaming platform clone built with React, Vite, and Tailwind CSS. This project replicates the Disney+ Hotstar experience with movie and show listings, authentication, and a sleek animated UI. Features include responsive design for all devices, animated banners, interactive cards, user authentication, dynamic routing, and a dark theme inspired by Disney+. The modular component structure makes it easy to customize and extend.",
