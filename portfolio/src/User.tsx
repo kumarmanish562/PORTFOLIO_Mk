@@ -19,7 +19,7 @@ const ProjectInfo = [
     "image": "VR-World.png",
     "live": true,
     "technologies": ["React", "Tailwind CSS", "Vite", "AOS Animation", "React Icons"],
-    "link": "https://vr-world-metaverse.vercel.app/",
+    "link": "https://kumarmanish562.github.io/gamer_platform/",
     "github": "https://github.com/kumarmanish562/gamer_platform.git"
 },
    {
@@ -57,7 +57,7 @@ const ProjectInfo = [
     image: "disney.png",
     live: true,
     technologies: ["React", "Vite", "Tailwind CSS", "React Router", "Axios"],
-    link: "https://kumarmanish562.github.io/gamer_platform/",
+    link: "https://disney-clone-frontend-zeta.vercel.app/",
     github: "https://github.com/kumarmanish562/disney_clone_frontend.git"
 }
    
