@@ -13,6 +13,15 @@ const Info = {
 
 
 const ProjectInfo = [
+    {
+    "title": "VR World Metaverse",
+    "desc": "An immersive metaverse platform built with React and Tailwind CSS. This responsive web application features interactive UI elements, animated transitions, and a sleek design that introduces users to virtual reality experiences. Key features include animated hero sections, feature showcases, video demos via popup player, app store integration, and a full dark mode experience. The custom gradient effects and smooth animations create an engaging user experience that highlights the possibilities of VR technology.",
+    "image": "VR-World.png",
+    "live": true,
+    "technologies": ["React", "Tailwind CSS", "Vite", "AOS Animation", "React Icons"],
+    "link": "https://vr-world-metaverse.vercel.app/",
+    "github": "https://github.com/kumarmanish562/gamer_platform.git"
+},
    {
     title: "BiblioStore Web",
     desc: "BiblioStore_Web is a sleek and responsive online bookstore built using React, TailwindCSS, Redux, and Heroicons. It offers features like book browsing by category, real-time search, detailed book previews, and a shopping cart. Users can register and log in securely, manage their wishlist, and check out with form validation. After purchasing, users can view their order history. Bilil makes discovering and purchasing books convenient and enjoyable with its minimal yet powerful UI.",
@@ -48,7 +57,7 @@ const ProjectInfo = [
     image: "disney.png",
     live: true,
     technologies: ["React", "Vite", "Tailwind CSS", "React Router", "Axios"],
-    link: "https://disney-clone-frontend-zeta.vercel.app/",
+    link: "https://kumarmanish562.github.io/gamer_platform/",
     github: "https://github.com/kumarmanish562/disney_clone_frontend.git"
 }
    
