@@ -59,8 +59,16 @@ const ProjectInfo = [
     technologies: ["React", "Vite", "Tailwind CSS", "React Router", "Axios"],
     link: "https://disney-clone-frontend-zeta.vercel.app/",
     github: "https://github.com/kumarmanish562/disney_clone_frontend.git"
-}
-   
+},
+{
+    title: "FigmaLand - Modern Landing Page",
+    desc: "A modern, responsive landing page built with vanilla HTML5, CSS3, and JavaScript. This project showcases a clean, professional design tool website with interactive features, smooth animations, and mobile-first approach. Features include responsive navigation, custom video player, testimonial carousel, contact form validation, partner showcase, and pricing plans. The semantic HTML structure, CSS Grid/Flexbox layouts, and ES6+ JavaScript demonstrate modern web development best practices.",
+    "image": "figmaland.png",
+    live: true,
+    technologies: ["HTML5", "CSS3", "JavaScript", "CSS Grid", "Flexbox", "Responsive Design"],
+    link: "https://figma-land-lilac.vercel.app/",
+    github: "https://github.com/kumarmanish562/figmaLand.git"
+},
 ]
 
 
