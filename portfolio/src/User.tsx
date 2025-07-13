@@ -13,6 +13,16 @@ const Info = {
 
 
 const ProjectInfo = [
+
+    {
+    "title": "SnapBasket Online Grocery Store",
+    "desc": "A modern React-based online grocery shopping platform featuring comprehensive user authentication, dynamic shopping cart functionality, and fully responsive design. Built with Tailwind CSS and Vite, this e-commerce application showcases over 100 high-quality product images across multiple categories including fresh produce, premium cheeses, artisan breads, and gourmet treats. Key features include protected routes, persistent cart state management, real-time price calculations, contact support system, and seamless mobile optimization. The application demonstrates modern web development practices with React Context for state management, JWT authentication, and intuitive user experience design.",
+    "image": "SnapBasket-Preview.png",
+    "live": true,
+    "technologies": ["React", "Tailwind CSS", "Vite", "React Router DOM", "React Icons", "React Context"],
+    "link": "https://snap-basket-6kwc.vercel.app/",
+    "github": "https://github.com/kumarmanish562/SnapBasket.git"
+},
     {
     "title": "VR World Metaverse",
     "desc": "An immersive metaverse platform built with React and Tailwind CSS. This responsive web application features interactive UI elements, animated transitions, and a sleek design that introduces users to virtual reality experiences. Key features include animated hero sections, feature showcases, video demos via popup player, app store integration, and a full dark mode experience. The custom gradient effects and smooth animations create an engaging user experience that highlights the possibilities of VR technology.",
